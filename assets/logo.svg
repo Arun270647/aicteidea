@@ -1,0 +1,28 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="60" fill="#ffffff"/>
+  
+  <!-- Main Logo Text -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#007bff">
+    VEL TECH
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="20" y="42" font-family="Arial, sans-serif" font-size="10" fill="#666">
+    HIGH TECH DR. RANGARAJAN DR. SAKUNTHALA
+  </text>
+  
+  <!-- Subtitle Line 2 -->
+  <text x="20" y="52" font-family="Arial, sans-serif" font-size="10" fill="#666">
+    ENGINEERING COLLEGE
+  </text>
+  
+  <!-- Decorative Element -->
+  <circle cx="170" cy="30" r="15" fill="#007bff" opacity="0.1"/>
+  <circle cx="170" cy="30" r="10" fill="#007bff" opacity="0.3"/>
+  <circle cx="170" cy="30" r="5" fill="#007bff"/>
+  
+  <!-- Gear Icon -->
+  <path d="M175 25 L180 27 L182 32 L180 37 L175 39 L170 37 L168 32 L170 27 Z" fill="#ffffff"/>
+  <circle cx="175" cy="32" r="3" fill="#007bff"/>
+</svg>
