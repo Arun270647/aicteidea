@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #fff !important;
     min-height: 100vh;
     margin: 0;
     padding: 20px;
@@ -464,7 +464,7 @@ body::after {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -513,9 +513,9 @@ body::after {
 .benefit-number {
     background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 50%;
+    height: 50px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -767,7 +767,7 @@ body::after {
     .benefit-number {
         align-self: flex-start;
     }
-}
+
 
 @media (max-width: 480px) {
     .content-area {
@@ -2062,4 +2062,19 @@ body::after {
     .access-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-card {
+    grid-column: 1 / -1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
