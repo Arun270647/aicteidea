@@ -1104,6 +1104,12 @@ body::after {
     font-size: 13px;
 }
 
+.coordinator-photo{
+    border-radius: 100px;
+    height:100px;
+    width:100px;
+}
+
 .achievements ul, .responsibilities ul {
     margin-top: 5px;
     padding-left: 20px;
